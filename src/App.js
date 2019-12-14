@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar'
 import TypoGraphy from '@material-ui/core/Typography'
+import Routes from "./Routes";
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
            </TypoGraphy>
           </Toolbar>
         </AppBar>
+        <Routes />
 
       </div>
     );
