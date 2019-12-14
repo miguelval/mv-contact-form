@@ -24,8 +24,8 @@ export default class Contact extends React.Component {
         this.setState({ submitted: true }, () => {
             setTimeout(() => this.setState({ submitted: false }), 5000);
         });
-       // const { formData } = this.state;
-       // alert(this.state.formData.name);
+
+        // send email via lambda function gatway api
         sendEmail(this.state.formData.email, this.state.formData.name, this.state.formData.message);
     }
 
