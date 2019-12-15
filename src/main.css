@@ -1,23 +1,32 @@
+  form {
+    width: auto;
+  }
 
-form {
-  width: 400px;
-}
+  #message {
+    padding: 0px 0px 80px 0px;
+  }
 
-#message {
-  padding: 0px 0px 80px 0px;
-}
+  .Login, .Contact {
+    padding: 20px;
+    width: auto;
+  }
 
-.Login, .Contact {
-  margin: 20px;
-  width: 400px;
-}
+  .Contact h2 {
+    float: left;
+  }
 
-.Contact h2 {
-  float: left;
-}
+  .Contact .logout-btn {
+    float: right;
+    margin-top: 14px;
+  }
+@media (min-width:440px)  {
+  form {
+    width: 400px;
+  }
 
-.Contact .logout-btn {
-  float: right;
-  margin-top: 14px;
+  .Login, .Contact {
+    width: 400px;
+  }
+
 }
 
