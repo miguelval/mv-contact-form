@@ -6,6 +6,7 @@ import Routes from "./Routes";
 
 
 class App extends Component {
+
   render() {
     return (
       <div>
@@ -18,7 +19,7 @@ class App extends Component {
            </TypoGraphy>
           </Toolbar>
         </AppBar>
-        <Routes />
+        <Routes  />
 
       </div>
     );
